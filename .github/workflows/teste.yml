@@ -16,7 +16,7 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v2
     - name: Step2
-      run: @echo "teste de job no gh actions!!"
+      run: echo "teste de job no gh actions!!"
 
     - name: Step2
-      run: @echo "teste 2"
+      run: echo "teste 2"
